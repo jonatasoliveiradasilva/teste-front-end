@@ -1,0 +1,49 @@
+.navegacao {
+
+    ul {
+
+        align-items: center;
+        display: flex;
+        height: 40px;
+        justify-content: space-around;
+
+        li {
+
+            button {
+
+                background: transparent;
+                border: none;
+                color: #9F9F9F;
+                cursor: pointer;
+                font-family: "Poppins", sans-serif;
+                font-size: 12px;
+                text-transform: uppercase;
+            }
+
+            a {
+
+                color: #9F9F9F;
+                font-family: "Poppins", sans-serif;
+                font-size: 12px;
+                text-decoration: none;
+                text-transform: uppercase;
+
+                strong {
+
+                    color: #3019B2;
+                }
+
+                span {
+
+                    margin: 0 0 0 5px;
+                }
+            }
+        }
+
+        .assinatura {
+
+            align-items: center;
+            display: flex;
+        }
+    }
+}
